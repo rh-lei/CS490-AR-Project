@@ -400,7 +400,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/UTech/MG-Karting
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/ruiwenhu/Desktop/CS490 Project
+  m_LastProjectPath: /Users/ruiwenhu/Documents/GitHub/CS490-AR-Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:

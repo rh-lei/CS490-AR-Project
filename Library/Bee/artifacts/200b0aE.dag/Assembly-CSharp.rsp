@@ -384,6 +384,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.MagicLeap.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/VuforiaEditorScripts.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/VuforiaScripts.ref.dll"
+"Assets/DisplayBehaviour.cs"
 "Assets/ExampleAssets/Scripts/AnchorCreator.cs"
 "Assets/ExampleAssets/Scripts/ARFeatheredPlaneMeshVisualizer.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

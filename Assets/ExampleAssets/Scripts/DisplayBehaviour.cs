@@ -4,21 +4,21 @@ using UnityEngine;
 
 public class DisplayBehaviour : MonoBehaviour
 {
-    public GameObject guideCanvas;
+    public GameObject tutorialCanvas;
     // Start is called before the first frame update
     void Start()
     {
-        guideCanvas.SetActive(true);
+        tutorialCanvas.SetActive(true);
     }
 
-    public void enableGuide() 
+    public void enableTutorial() 
     {
-        guideCanvas.SetActive(true);
+        tutorialCanvas.SetActive(true);
     }
 
-    public void disableGuide() 
+    public void disableTutorial() 
     {
-        guideCanvas.SetActive(false);
+        tutorialCanvas.SetActive(false);
     }
 
     // Update is called once per frame
@@ -27,4 +27,3 @@ public class DisplayBehaviour : MonoBehaviour
         
     }
 }
-

@@ -4,7 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ExampleAssets/Scenes/HomePage.unity
+    guid: b9f2283fbe28b4a1cab29221fd803886
+  - enabled: 1
+    path: Assets/ExampleAssets/Scenes/RoadSign.unity
+    guid: ec8cd53ae89a442e6af66fd5d3db0ba9
+  - enabled: 1
+    path: Assets/ExampleAssets/Scenes/SteeringWheel.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}

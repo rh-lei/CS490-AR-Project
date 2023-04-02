@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    // webview links
-    public static string webviewLink;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,35 +19,21 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadScene(string buttonName)
     {
-        if (buttonName == "AR")
+        if (buttonName == "Tutorial")
         {
-            SceneManager.LoadScene("UIButton");
+            SceneManager.LoadScene("SteeringWheel");
         } 
         else if (buttonName == "Home")
         {
-            SceneManager.LoadScene("HomeMenu");
+            SceneManager.LoadScene("HomePage");
         } 
-        else if (buttonName == "Video")
+        else if (buttonName == "Stimulation")
         {
-            SceneManager.LoadScene("VideoDisplay");
+            SceneManager.LoadScene("RoadSign");
         }
         else
         {
-            openWebviewLink(buttonName);
-            SceneManager.LoadScene("WebView");
+            SceneManager.LoadScene("HomePage");
         }
-    }
-
-    public void openWebviewLink(string button)
-    {
-        if (button == "Video")
-        {
-            webviewLink = "https://www.figma.com/proto/PZS06yyLrPuB9i4pwD2RgO/HMI-Prototype?node-id=1057%3A63&scaling=min-zoom&page-id=1057%3A48&starting-point-node-id=1057%3A49";
-        } 
-        else 
-        {
-            webviewLink = "https://www.figma.com/proto/PZS06yyLrPuB9i4pwD2RgO/HMI-Prototype?node-id=1438%3A75&scaling=min-zoom&page-id=1057%3A48&starting-point-node-id=1057%3A49";
-        }
-        
     }
 }

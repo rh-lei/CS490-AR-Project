@@ -773,7 +773,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -242, y: 702}
+  m_AnchoredPosition: {x: -216, y: 608}
   m_SizeDelta: {x: 35, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1384227328
@@ -1060,7 +1060,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 743384815}
         m_TargetAssemblyTypeName: DisplayBehaviour, Assembly-CSharp
-        m_MethodName: enableTutorial
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

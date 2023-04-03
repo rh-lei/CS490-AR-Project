@@ -1,6 +1,7 @@
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+<<<<<<< Updated upstream
 { "pid": 35942, "tid": 1, "ts": 1680542772407532, "dur": 2319346, "ph": "X", "name": "BuildProgram", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1680542772411123, "dur": 423462, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1680542774223006, "dur": 79632, "ph": "X", "name": "OutputData.Write", "args": {} },
@@ -8,3 +9,20 @@
 { "pid": 35942, "tid": 1, "ts": 1680542774313371, "dur": 311531, "ph": "X", "name": "JsonToString", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1680542774743467, "dur": 4009, "ph": "X", "name": "", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1680542774741664, "dur": 6064, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+=======
+{ "pid": 35942, "tid": 1, "ts": 1680487138972856, "dur": 1045614, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680487138976148, "dur": 115632, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680487139479198, "dur": 194552, "ph": "X", "name": "SetupSpecificConfigImpl libil2cpp", "args": {"info": "release_Android_arm32"} },
+{ "pid": 35942, "tid": 1, "ts": 1680487139492008, "dur": 115032, "ph": "X", "name": "SetupSpecificConfigImpl il2cpp", "args": {"info": "release_Android_arm32"} },
+{ "pid": 35942, "tid": 1, "ts": 1680487139493679, "dur": 68804, "ph": "X", "name": "SetupSpecificConfigImpl bdwgc", "args": {"info": "release_Android_arm32"} },
+{ "pid": 35942, "tid": 1, "ts": 1680487139562540, "dur": 3339, "ph": "X", "name": "SetupSpecificConfigImpl zlib", "args": {"info": "release_Android_arm32"} },
+{ "pid": 35942, "tid": 1, "ts": 1680487139680470, "dur": 52438, "ph": "X", "name": "SetupSpecificConfigImpl libil2cpp", "args": {"info": "release_Android_arm64"} },
+{ "pid": 35942, "tid": 1, "ts": 1680487139680518, "dur": 25366, "ph": "X", "name": "SetupSpecificConfigImpl il2cpp", "args": {"info": "release_Android_arm64"} },
+{ "pid": 35942, "tid": 1, "ts": 1680487139680703, "dur": 419, "ph": "X", "name": "SetupSpecificConfigImpl bdwgc", "args": {"info": "release_Android_arm64"} },
+{ "pid": 35942, "tid": 1, "ts": 1680487139681148, "dur": 1078, "ph": "X", "name": "SetupSpecificConfigImpl zlib", "args": {"info": "release_Android_arm64"} },
+{ "pid": 35942, "tid": 1, "ts": 1680487139913740, "dur": 10340, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680487139924084, "dur": 94365, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680487139925495, "dur": 50786, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680487140025179, "dur": 3051, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680487140024463, "dur": 3823, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+>>>>>>> Stashed changes

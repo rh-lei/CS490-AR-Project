@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="StopSign" size="0.600000 0.600000" />
+    <ImageTarget name="SlippySign" size="0.600000 0.780757" />
+    <ImageTarget name="AllWayStopSign" size="0.600000 0.762188" />
+    <ImageTarget name="CrossingAhead" size="0.600000 1.357500" />
+    <ImageTarget name="80speedLimit" size="0.600000 0.897008" />
+  </Tracking>
+</QCARConfig>

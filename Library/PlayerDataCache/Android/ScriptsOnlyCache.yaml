@@ -145,9 +145,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: DisplayBehaviour
     methodName: disableTutorial
-  - assembly: Assembly-CSharp
-    fullTypeName: DisplayBehaviour
-    methodName: enableTutorial
   sceneClasses:
     Assets/ExampleAssets/Scenes/HomePage.unity:
     - Class: 1

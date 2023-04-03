@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/ExampleAssets/Scenes/HomePage.unity
+- path: Assets/ExampleAssets/Scenes/RoadSign.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
